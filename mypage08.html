@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*dessendant selector*/
+      /*s1 s2 = all s2 in s1 */
+      #aa p {
+        color: red;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="aa">
+      <p>1</p>
+      <p>2</p>
+      <span>hello</span>
+      <div id="bb">
+        <p>4</p>
+        <div>
+          <p>5</p>
+          <p>6</p>
+          <div>
+            <p>7</p>
+            <p>8</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>9</p>
+    <p>10</p>
+    <span>11</span>
+    <p>12</p>
+  </body>
+</html>
